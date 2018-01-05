@@ -67,7 +67,7 @@ endif
 endif
 
 LOCAL_MODULE:= libstagefright_omx
-LOCAL_CFLAGS += -Werror -Wall -Wno-unused-parameter -Wno-documentation
+#LOCAL_CFLAGS += -Werror -Wall -Wno-unused-parameter -Wno-documentation
 LOCAL_SANITIZE := unsigned-integer-overflow signed-integer-overflow cfi
 LOCAL_SANITIZE_DIAG := cfi
 
